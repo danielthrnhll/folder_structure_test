@@ -56,3 +56,9 @@ print(bicycles[-2])
 
 message = f"my first bicycle was a {bicycles[-1].title()}"
 print(message)
+
+"""
+
+metodo append.()
+agregar elementos a la lista
+"""
