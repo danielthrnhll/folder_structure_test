@@ -34,3 +34,4 @@ print("\n lista despues del metodo insert")
 print(motorcycle_3)
 
 # metodo .pop()
+
