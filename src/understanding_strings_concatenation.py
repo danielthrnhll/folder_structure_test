@@ -35,4 +35,13 @@ print(message)
 quote = "hola"
 message_2 = f"{famous_person} una vez dijo {quote}"
 
+# ELIMINACIÓN DE ESPACIOS EN BLANCO
+
+
+programming_language = " Pyth on "
+print(programming_language)
+print(programming_language.lstrip())
+print(programming_language.rstrip())
+print(programming_language.strip())
+
 #investigar que hace el metodo join delos strings
