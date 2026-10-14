@@ -45,3 +45,7 @@ print("tupla re-definida:", dimensions)
 
 # dimensions_2 = [200,50]
 # print(dir(dimensions_2))
+
+#tipos de datos boleanos
+answer = True 
+print(answer)
