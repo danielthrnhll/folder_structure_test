@@ -35,3 +35,16 @@ message = "Charly tiene " + str(age) + " años"
 message_f_strings = f"Charly tiene {age} años"
 print(message)
 print(message_f_strings)
+
+"""
+    TypeError: Python no puede reconocer el tipo de 
+    informacion q se esta utilizando.
+
+    En este caso no se puden concatenar
+    Ints con String
+"""
+
+print(type(age))
+print(type(0.1))
+print(type(message_f))
+print(type(message_f), type(1 + 5), type(2 + 0.5))

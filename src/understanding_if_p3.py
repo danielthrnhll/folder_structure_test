@@ -19,7 +19,7 @@ else:
 
 #
 guisos_disponibles = ["salsas verde", "deshebrada", "picadillo", "asado"]
-guisos_a_ordenar = ["baebacoa", "deshebrada", "cabrito"]
+guisos_a_ordenar = ["barbacoa", "deshebrada", "cabrito"]
 for guiso in guisos_a_ordenar:
     if guiso in guisos_disponibles:
         print("si hay de ese guiso")
