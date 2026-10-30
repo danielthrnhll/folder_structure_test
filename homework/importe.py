@@ -22,8 +22,8 @@ debe mostrar estos datos
 
 sum = 0.0
 count_inputs = 0
-min = None
-max = None 
+minimun_value = None
+maximun_value = None 
 message = """
     suma de valores
 
@@ -36,18 +36,22 @@ while True:
     if value_txt.lower() == "exit":
         break
     
-    value = float(value_txt)
+    try:
+        value = float(value_txt)
+    except ValueError:
+        print("el valor que ingresaste no es valido")
+        continue 
     sum += value
     count_inputs += 1
 
-    if min == None and max == None :
-        min = value
-        max = value
+    if minimun_value == None and maximun_value == None :
+        minimun_value = value
+        maximun_value = value
     else:
-        if value < min:
-            min = value
-        elif value > max:
-            max = value
+        if value < minimun_value:
+            minimun_value = value
+        elif value > maximun_maximun:  
+            maximun_maximun = value
 
 
 average = sum / count_inputs
